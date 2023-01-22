@@ -96,7 +96,7 @@
                         <label for="name" class="sr-only">Full name</label>
                         <div class="relative rounded-md shadow-sm">
                             <input wire:model="name" id="name" name="name" value="{{ old('name') }}"
-                                class="@error('name')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+                                class="@error('name')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150 rounded-xl m-0.5"
                                 placeholder="Full name">
                         </div>
                         @error('name')
@@ -108,7 +108,7 @@
                         <label for="email" class="sr-only">Email</label>
                         <div class="relative rounded-md shadow-sm">
                             <input wire:model="email" id="email" type="text" name="email" value="{{ old('email') }}"
-                                class="@error('email')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+                                class="@error('email')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150 rounded-xl m-0.5"
                                 placeholder="Email">
                         </div>
                         @error('email')
@@ -119,7 +119,7 @@
                         <label for="phone" class="sr-only">Phone</label>
                         <div class="relative rounded-md shadow-sm">
                             <input wire:model="phone" id="phone" name="phone" value="{{ old('phone') }}"
-                                class="@error('phone')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+                                class="@error('phone')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150 rounded-xl m-0.5"
                                 placeholder="Phone">
                         </div>
                         @error('phone')
@@ -130,7 +130,7 @@
                         <label for="message" class="sr-only">Message</label>
                         <div class="relative rounded-md shadow-sm">
                             <textarea wire:model="message" id="message" rows="4" name="message"
-                                class="@error('message')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150"
+                                class="@error('message')border border-red-500 @enderror form-input block w-full py-3 px-4 placeholder-gray-500 transition ease-in-out duration-150 rounded-xl m-0.5"
                                 placeholder="Message">{{ old('message') }}</textarea>
                         </div>
                         @error('message')

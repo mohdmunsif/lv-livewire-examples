@@ -10,7 +10,7 @@ Phone: {{ $contact['phone'] }}
 Message: {{ $contact['message'] }}
 
 @component('mail::button', ['url' => ''])
-Button Text
+Random Button MMMS
 @endcomponent
 
 Thanks,<br>

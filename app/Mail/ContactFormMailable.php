@@ -31,7 +31,7 @@ class ContactFormMailable extends Mailable
     public function build()
     {
         return $this->from($this->contact['email'])
-            ->subject('Contact Form Submission')
+            ->subject('Contact Form Submission MMMS')
             ->markdown('emails.contact-form-email');
     }
 }
